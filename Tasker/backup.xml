@@ -1,0 +1,70 @@
+<TaskerData sr="" dvi="1" tv="4.8m">
+	<Profile sr="prof2" ve="2">
+		<cdate>1451854814525</cdate>
+		<edate>1451855771842</edate>
+		<flags>2</flags>
+		<id>2</id>
+		<mid0>3</mid0>
+		<State sr="con0" ve="2">
+			<code>10</code>
+			<Int sr="arg0" val="0"/>
+		</State>
+	</Profile>
+	<Profile sr="prof6" ve="2">
+		<cdate>1451855718255</cdate>
+		<edate>1451855808136</edate>
+		<id>6</id>
+		<mid0>7</mid0>
+		<State sr="con0" ve="2">
+			<code>10</code>
+			<pin>true</pin>
+			<Int sr="arg0" val="0"/>
+		</State>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1451853813808</cdate>
+		<mdate>1451855761897</mdate>
+		<name>Base</name>
+		<pids>2,6</pids>
+		<tids>3,7</tids>
+		<Img sr="icon" ve="2">
+			<nme>hl_aaa_ext_home</nme>
+		</Img>
+	</Project>
+	<Task sr="task3">
+		<cdate>1451854829757</cdate>
+		<edate>1451855771842</edate>
+		<id>3</id>
+		<nme>Play</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="5"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2">
+				<appClass>com.spotify.music.MainActivity</appClass>
+				<appPkg>com.spotify.music</appPkg>
+				<label>Spotify</label>
+			</App>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1451855724414</cdate>
+		<edate>1451855775987</edate>
+		<id>7</id>
+		<nme>Pause</nme>
+		<Action sr="act0" ve="7">
+			<code>16</code>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>443</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<App sr="arg2">
+				<appClass>com.spotify.music.MainActivity</appClass>
+				<appPkg>com.spotify.music</appPkg>
+				<label>Spotify</label>
+			</App>
+		</Action>
+	</Task>
+</TaskerData>
